@@ -1,0 +1,18 @@
+{
+  "name": "vercel.edge.sample",
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vc dev",
+    "deploy": "vc deploy --prod"
+  },
+  "dependencies": {
+    "@vercel/edge": "1.0.1"
+  },
+  "devDependencies": {
+    "typescript": "5.2.2"
+  },
+  "license": "MIT",
+  "sideEffects": false,
+  "private": true
+}
